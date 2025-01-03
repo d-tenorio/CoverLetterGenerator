@@ -21,6 +21,10 @@ professional cover letter demonstrating how my abilities align with the
 requirements for the {position} position at {company}. The role has the 
 description of {role_desc} Use the {resume} below as a guide.
 
+The length of the cover letter should be strictly no more than {length}. If {length} 
+does not contain a length of a document, use a single page. If the length is greater than two pages, 
+truncate it down to no more than two pages.
+
 When needed, use {name} as the name of the person applying. Here are the key 
 details to incorporate:
 
@@ -37,7 +41,7 @@ or technical problem I solved that demonstrates my problem-solving abilities.
 Emphasize my collaborative approach and experience with agile development 
 practices. Show enthusiasm for continuous learning and staying current with 
 new technologies. Make clear connections between my experience and the 
-company's needs. Keep the length strictly no more than {length}. Format it 
+company's needs.  Format it 
 professionally. Avoid generic phrases like 'I am writing to express my interest.' 
 Focus on specific contributions I could make to the company. End with a clear 
 call to action expressing interest in an interview. Do not make up any details 
