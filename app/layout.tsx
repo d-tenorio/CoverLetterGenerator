@@ -2,8 +2,9 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Cover Letter Generator',
+  description: 'Generate cover letters at breakneck speed!',
+  icons: { icon: "favicon.ico", apple: "apple-touch-icon.png" }
 }
 
 export default function RootLayout({
