@@ -1,3 +1,4 @@
+node_modules
 .env
-__pycache__
-.gitignore
+.next
+next-env.d.ts
