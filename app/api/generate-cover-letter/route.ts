@@ -1,10 +1,15 @@
 import { NextResponse } from 'next/server'
 import { GoogleGenerativeAI } from '@google/generative-ai'
 
-// Initialize the Google Generative AI client
-const genAI = new GoogleGenerativeAI(process.env.GOOGLE_GEMINI_API_KEY as string)
-
 export async function POST(req: Request) {
+  const apiKey = process.env.GOOGLE_API_KEY;
+
+  if (!apiKey) {
+    throw new Error('Gemini API key not set.');
+  }
+
+  const genAI = new GoogleGenerativeAI(apiKey as string)
+
   const data = await req.json()
 
   try {
